@@ -1,0 +1,29 @@
+name: lembreme_app
+description: "Aplicativo de lembretes de medicamentos"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  flutter_local_notifications: ^19.1.0
+  timezone: ^0.10.1
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # - assets/imagens/   # <--- COMENTE OU REMOVA ESTA LINHA POR ENQUANTO
+    - assets/logo.png     # Mantenha arquivos específicos se tiver
